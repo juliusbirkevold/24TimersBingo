@@ -44,18 +44,6 @@ a:visited {
   margin: auto;
 }
 
-.github {
-  transition: 0.2s;
-  font-size: 15px;
-  border-radius: 100%;
-}
-
-.github:hover {
-  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 3s ease-in-out infinite;
-}
-
 .bingoBoard {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -104,13 +92,13 @@ a:visited {
 
 .rules > button {
   display: block;
-  border: 3px solid #b21c17;
+  border: 3px solid var(--bingo-cell-dark);
   color: #ffffff;
   height: 7vh;
   width: 100%;
   border-radius: 20px;
   cursor: pointer;
-  background-color: #e21617;
+  background-color: var(--bingo-cell-light);
 }
 
 @keyframes gradient {
@@ -167,18 +155,6 @@ a:visited {
   padding: 0 2rem;
 }
 
-.textWindow > button {
-  font-size: 2rem;
-  display: block;
-  border: 5px solid #b21c17;
-  color: #ffffff;
-  height: 20vh;
-  width: 40vw;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: #e21617;
-  margin: 10vh auto;
-}
 .popup > p {
   font-size: 1.5rem;
   color: white;
@@ -232,17 +208,6 @@ a:visited {
   .bingoBoard {
     max-height: 70%;
     min-height: 70%;
-  }
-
-  .github {
-    transition: 0.2s;
-    font-size: 15px;
-    max-width: unset;
-    position: absolute;
-    bottom: 10px;
-  }
-  .github > a > img {
-    max-height: 7vh;
   }
 
   .rules {

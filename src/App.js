@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import BingoCell from "./components/BingoCell";
 import "./App.css";
-import logo from "./github.svg";
 import fireImg from "./components/BingoCell/klokke.png";
 import bingopile from "./resources/bingo.json";
 
@@ -213,19 +212,17 @@ class App extends Component {
         </div>
 
         <div className="App-header">
-          <span className="logo">
-            <img src={fireImg} alt="Abakus logo" />
-            <span> 24 Timersbingo</span>
-          </span>
+          <div style={{ textAlign: "left" }}>
+            24-timer
+            <br />
+            <span style={{ textDecoration: "underline", fontSize: "3.5rem" }}>
+              BINGO
+            </span>
+          </div>
           <div className="rules">
             <button onClick={() => this.setState({ showRules: true })}>
               Regler
             </button>
-          </div>
-          <div className="github">
-            <a href={"https://github.com/juliusbirkevold/24TimersBingo"}>
-              <img src={logo} alt="Github" />
-            </a>
           </div>
         </div>
         <div className="bingoBoard">
