@@ -21,7 +21,6 @@ class App extends Component {
     bingo_diagonal_up: false,
     is_bingo: false,
     showRules: false,
-    confirmReset: false,
   };
 
   componentDidMount() {
@@ -39,9 +38,8 @@ class App extends Component {
 
   handleCellChange = (value) => {
     let cells = this.state.chosen_cells;
-    cells[value % 4][Math.floor(value / 4)] = !cells[value % 4][
-      Math.floor(value / 4)
-    ];
+    cells[value % 4][Math.floor(value / 4)] =
+      !cells[value % 4][Math.floor(value / 4)];
     let bingo_rows = this.state.bingo_rows;
     let bingo_cols = this.state.bingo_cols;
     let bingo_diagonal_down = this.state.bingo_diagonal_down;
@@ -204,31 +202,12 @@ class App extends Component {
           </div>
           <p>(Trykk for å lukke)</p>
         </div>
-        <div
-          className={this.state.confirmReset ? "popup show" : "popup"}
-          onClick={() => this.setState({ confirmReset: false })}
-        >
-          <div className="textWindow">
-            <p>Er du sikker på at du vil bytte brett?</p>
-            <p>Dette kan ikke angres.</p>
-            <br />
-            <button onClick={() => this.generateBoard()}>
-              Ja, jeg er sikker
-            </button>
-          </div>
-          <p>(Eller trykk for å lukke)</p>
-        </div>
 
         <div className="App-header">
           <span className="logo">
             <img src={fireImg} alt="Abakus logo" />
             <span> 24 Timersbingo</span>
           </span>
-          <div className="newBoard">
-            <button onClick={() => this.setState({ confirmReset: true })}>
-              Gi meg et nytt brett
-            </button>
-          </div>
           <div className="rules">
             <button onClick={() => this.setState({ showRules: true })}>
               Regler
