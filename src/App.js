@@ -189,15 +189,16 @@ class App extends Component {
           <div className="textWindow">
             <p>Regler</p>
             <br />
-            <p>1) Du har bingo om du er førstemann til fire på rad</p>
+            <p>1) Du har 24 timer til å utføre så mange utfordringer som mulig</p>
             <br />
-            <p>2) Radene er vertikale, horisontale og diagonale</p>
+            <p>2) Det handler om å være taktisk, premier blir bestemt etter antall rader. Radene er kun vertikale og horisontale</p>
             <br />
-            <p>3) Den endelige bingoen får du når du har fylt brettet</p>
+            <p>3) Den endelige bingoen får du når du har fylt brettet, og gir selvfølgelig best premie! 
+              Dere som går for stor utføring bør dokumentere så mye som mulig, 
+              siden vi vil verifisere de beste.</p>
             <br />
             <p>
-              4) Vinneren er førstemann til å få alle fire bingoer (eller h*n
-              som har flest når genfors er over)
+              4) Vinneren er førstemann til å fylle hele brettet, eller han/hun som har kommer lengst!
             </p>
           </div>
           <p>(Trykk for å lukke)</p>
@@ -214,7 +215,7 @@ class App extends Component {
             </button>
           </div>
           <div className="github">
-            <a href={"https://github.com/magnhan/genfors-bingo-web"}>
+            <a href={"https://github.com/juliusbirkevold/24TimersBingo"}>
               <img src={logo} alt="Github" />
             </a>
           </div>
