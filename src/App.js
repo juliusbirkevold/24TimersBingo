@@ -3,7 +3,7 @@ import BingoCell from "./components/BingoCell";
 import "./App.css";
 import logo from "./github.svg";
 import fireImg from "./components/BingoCell/Abakule-ny.png";
-import bingopile from "./bingo.json";
+import bingopile from "./resources/bingo.json";
 
 class App extends Component {
   constructor(props) {

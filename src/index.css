@@ -1,3 +1,13 @@
+:root {
+  --main-blue-light: rgb(203,225,219);
+  --main-beige: rgb(243,216,193);
+  --main-grey-dark: rgb(87,91,107);
+  --bingo-cell-light: rgb(183,223,211);
+  --bingo-cell-dark: rgb(151,174,174);
+  --bg: rgb(250,249,249);
+  --text-color: rgb(76,82,100);
+}
+
 body {
   margin: 0;
   padding: 0;
