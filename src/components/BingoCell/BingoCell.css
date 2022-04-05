@@ -9,11 +9,12 @@
   text-align: center;
   font-size: 18px;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-weight: bold;
   overflow: hidden;
   word-break: break-word;
   transition: 0.2s;
+  text-shadow: 0 0 5px white;
 }
 
 .cell-odd {
@@ -21,7 +22,7 @@
 }
 
 .cell-selected {
-  background-image: url("Abakule-ny.png");
+  background-image: url("klokke.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 70%;
@@ -29,7 +30,8 @@
 }
 
 .cell:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+  transition: transform 0.1s;
   cursor: pointer;
 }
 

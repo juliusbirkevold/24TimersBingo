@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import BingoCell from "./components/BingoCell";
 import "./App.css";
 import logo from "./github.svg";
-import fireImg from "./components/BingoCell/Abakule-ny.png";
+import fireImg from "./components/BingoCell/klokke.png";
 import bingopile from "./resources/bingo.json";
 
 class App extends Component {
@@ -189,16 +189,24 @@ class App extends Component {
           <div className="textWindow">
             <p>Regler</p>
             <br />
-            <p>1) Du har 24 timer til å utføre så mange utfordringer som mulig</p>
-            <br />
-            <p>2) Det handler om å være taktisk, premier blir bestemt etter antall rader. Radene er kun vertikale og horisontale</p>
-            <br />
-            <p>3) Den endelige bingoen får du når du har fylt brettet, og gir selvfølgelig best premie! 
-              Dere som går for stor utføring bør dokumentere så mye som mulig, 
-              siden vi vil verifisere de beste.</p>
+            <p>
+              1) Du har 24 timer til å utføre så mange utfordringer som mulig
+            </p>
             <br />
             <p>
-              4) Vinneren er førstemann til å fylle hele brettet, eller han/hun som har kommer lengst!
+              2) Det handler om å være taktisk, premier blir bestemt etter
+              antall rader. Radene er kun vertikale og horisontale
+            </p>
+            <br />
+            <p>
+              3) Den endelige bingoen får du når du har fylt brettet, og gir
+              selvfølgelig best premie! Dere som går for stor utføring bør
+              dokumentere så mye som mulig, siden vi vil verifisere de beste.
+            </p>
+            <br />
+            <p>
+              4) Vinneren er førstemann til å fylle hele brettet, eller han/hun
+              som har kommer lengst!
             </p>
           </div>
           <p>(Trykk for å lukke)</p>
