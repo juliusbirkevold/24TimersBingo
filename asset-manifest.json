@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/24-timers-bingo-web/static/css/main.a304df2e.chunk.css",
+    "main.js": "/24-timers-bingo-web/static/js/main.3ebff029.chunk.js",
+    "main.js.map": "/24-timers-bingo-web/static/js/main.3ebff029.chunk.js.map",
+    "runtime-main.js": "/24-timers-bingo-web/static/js/runtime-main.73511176.js",
+    "runtime-main.js.map": "/24-timers-bingo-web/static/js/runtime-main.73511176.js.map",
+    "static/js/2.1e15c86d.chunk.js": "/24-timers-bingo-web/static/js/2.1e15c86d.chunk.js",
+    "static/js/2.1e15c86d.chunk.js.map": "/24-timers-bingo-web/static/js/2.1e15c86d.chunk.js.map",
+    "index.html": "/24-timers-bingo-web/index.html",
+    "static/css/main.a304df2e.chunk.css.map": "/24-timers-bingo-web/static/css/main.a304df2e.chunk.css.map",
+    "static/js/2.1e15c86d.chunk.js.LICENSE.txt": "/24-timers-bingo-web/static/js/2.1e15c86d.chunk.js.LICENSE.txt",
+    "static/media/github.1dd51261.svg": "/24-timers-bingo-web/static/media/github.1dd51261.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73511176.js",
+    "static/js/2.1e15c86d.chunk.js",
+    "static/css/main.a304df2e.chunk.css",
+    "static/js/main.3ebff029.chunk.js"
+  ]
+}
