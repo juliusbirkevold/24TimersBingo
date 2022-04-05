@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/24TimersBingo/static/css/main.a304df2e.chunk.css",
-    "main.js": "/24TimersBingo/static/js/main.7c35bad1.chunk.js",
-    "main.js.map": "/24TimersBingo/static/js/main.7c35bad1.chunk.js.map",
+    "main.css": "/24TimersBingo/static/css/main.a9a34580.chunk.css",
+    "main.js": "/24TimersBingo/static/js/main.be2a9d8c.chunk.js",
+    "main.js.map": "/24TimersBingo/static/js/main.be2a9d8c.chunk.js.map",
     "runtime-main.js": "/24TimersBingo/static/js/runtime-main.eb683957.js",
     "runtime-main.js.map": "/24TimersBingo/static/js/runtime-main.eb683957.js.map",
     "static/js/2.1e15c86d.chunk.js": "/24TimersBingo/static/js/2.1e15c86d.chunk.js",
     "static/js/2.1e15c86d.chunk.js.map": "/24TimersBingo/static/js/2.1e15c86d.chunk.js.map",
     "index.html": "/24TimersBingo/index.html",
-    "static/css/main.a304df2e.chunk.css.map": "/24TimersBingo/static/css/main.a304df2e.chunk.css.map",
-    "static/js/2.1e15c86d.chunk.js.LICENSE.txt": "/24TimersBingo/static/js/2.1e15c86d.chunk.js.LICENSE.txt",
-    "static/media/github.1dd51261.svg": "/24TimersBingo/static/media/github.1dd51261.svg"
+    "static/css/main.a9a34580.chunk.css.map": "/24TimersBingo/static/css/main.a9a34580.chunk.css.map",
+    "static/js/2.1e15c86d.chunk.js.LICENSE.txt": "/24TimersBingo/static/js/2.1e15c86d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eb683957.js",
     "static/js/2.1e15c86d.chunk.js",
-    "static/css/main.a304df2e.chunk.css",
-    "static/js/main.7c35bad1.chunk.js"
+    "static/css/main.a9a34580.chunk.css",
+    "static/js/main.be2a9d8c.chunk.js"
   ]
 }
